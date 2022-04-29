@@ -1,3 +1,4 @@
+const fs = require("fs")
 const Reader = require("../fizzbuz/lib/utils/Reader")
 const ExplorerService = require("../fizzbuz/lib/services/ExplorerService")
 const FizzbuzzService = require("../fizzbuz/lib/services/FizzbuzzService")
