@@ -18,5 +18,10 @@ describe("Test para ExplorerController", () => {
         const scoreFizzBuzz = ExplorerController.getTrickOfExplorerRequested(15);
         expect(scoreFizzBuzz).toBe("FIZZBUZZ");
     });
+    test("Prueba 5: Explorers by stack", () => {
+        const explorersByStack = ExplorerController.getExplorersByStack("javascript");
+        expect(explorersByStack.length).toBe(11);
+    });
+
 
 });
