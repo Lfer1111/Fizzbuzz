@@ -14,4 +14,9 @@ describe("Test para ExplorerController", () => {
         const testingAmountExplorersByMission = ExplorerController.getExplorersAmountByMission("node");
         expect(testingAmountExplorersByMission).toBe(10);
     });
+    test("Prueba 4: Score and FizzBuzz", () => {
+        const scoreFizzBuzz = ExplorerController.getTrickOfExplorerRequested(15);
+        expect(scoreFizzBuzz).toBe("FIZZBUZZ");
+    });
+
 });
